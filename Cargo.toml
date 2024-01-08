@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "bind",
+    "bind_test",
+]
+resolver = "2"

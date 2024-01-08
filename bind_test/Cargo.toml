@@ -1,0 +1,9 @@
+[package]
+name = "bind_test"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+bind = { version = "0.1", path = "../bind" }
+enclose = "1.1.8"
