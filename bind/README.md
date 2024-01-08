@@ -1,6 +1,6 @@
 This crate provides a proc macro to generate "let bindings" automatically,
 usually cloning values into an expression(usually a closure). Inspired by
-`crate enclose`. 
+`crate enclose`.
 
 # Syntax
 

@@ -6,4 +6,3 @@ publish = false
 
 [dependencies]
 bind = { version = "0.1", path = "../bind" }
-enclose = "1.1.8"
