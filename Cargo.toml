@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "bind",
+    "bind_syn",
     "bind_test",
 ]
 resolver = "2"

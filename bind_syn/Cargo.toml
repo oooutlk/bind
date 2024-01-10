@@ -1,21 +1,17 @@
 [package]
-name = "bind"
-version = "0.1.1"
+name = "bind_syn"
+version = "0.1.0"
 authors = ["oooutlk <oooutlk@outlook.com>"]
 categories = ["development-tools"]
-documentation = "https://docs.rs/bind"
-description = "Proc macro for binding values into an expression (usually a closure)"
+documentation = "https://docs.rs/bind_syn"
+description = "Syntax definition of let-binding shorthand utilized in crate bind"
 edition = "2021"
 keywords = [ "capture", "closure", "clone", "binding" ]
 license = "MIT/Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/oooutlk/bind"
 
-[lib]
-proc-macro = true
-
 [dependencies]
-bind_syn = { version = "0.1", path = "../bind_syn" }
 proc-macro2 = "1.0"
 quote = "1.0"
-syn = { version = "2.0", features = ["full"] }
+syn = { version = "2.0", features = ["full","visit"] }
